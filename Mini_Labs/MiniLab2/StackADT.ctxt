@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=StackADT
+comment0.text=\n\ \ @author\ Lewis\ and\ Chase\n\n\ \ Defines\ the\ interface\ to\ a\ stack\ data\ structure.\n
+comment1.params=element
+comment1.target=void\ push(java.lang.Object)
+comment1.text=\ \ Adds\ one\ element\ to\ the\ top\ of\ this\ stack.\ \n\ \ \ @param\ element\ element\ to\ be\ pushed\ onto\ stack\n
+comment2.params=
+comment2.target=java.lang.Object\ pop()
+comment2.text=\ \ Removes\ and\ returns\ the\ top\ element\ from\ this\ stack.\ \n\ \ \ @return\ T\ element\ removed\ from\ the\ top\ of\ the\ stack\n
+comment3.params=
+comment3.target=java.lang.Object\ peek()
+comment3.text=\ \ Returns\ without\ removing\ the\ top\ element\ of\ this\ stack.\ \n\ \ \ @return\ T\ element\ on\ top\ of\ the\ stack\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\ \ Returns\ true\ if\ this\ stack\ contains\ no\ elements.\ \n\ \ \ @return\ boolean\ whether\ or\ not\ this\ stack\ is\ empty\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\ \ Returns\ the\ number\ of\ elements\ in\ this\ stack.\ \n\ \ \ @return\ int\ number\ of\ elements\ in\ this\ stack\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ \ Returns\ a\ string\ representation\ of\ this\ stack.\ \n\ \ \ @return\ String\ representation\ of\ this\ stack\n
+numComments=7

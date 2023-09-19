@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=LLQueue
+comment0.text=\n\ The\ LLQueue\ class\ creates\ the\ linked\ list\ that\ stores\ the\ data\ and\ has\ accessor\ \n\ methods\ which\ allow\ the\ user\ to\ get\ information\ from\ the\ list\ and\ there\ are\ also\n\ modifier\ methods\ which\ allow\ the\ user\ to\ remove\ elements\ from\ the\ front\ and\ add\ \n\ elements\ to\ the\ end.\ \n\n\ @author\ Sophie\ Sjogren\n\ @version\ 4-26-21\n
+comment1.params=
+comment1.target=LLQueue()
+comment1.text=\n\ constructr\ for\ objects\ of\ class\ LLQueue\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\ Returns\ <code>true</code>\ if\ this\ queue\ is\ empty;\n\ \ <code>false</code>\ otherwise.\n
+comment3.params=item
+comment3.target=void\ enqueue(java.lang.Object)
+comment3.text=\ Adds\ a\ specified\ object\ to\ the\ "back"\ of\ this\ queue.\n\ \ \ \ @param\ item\ -\ the\ object\ to\ add\ to\ the\ queue\n
+comment4.params=
+comment4.target=java.lang.Object\ dequeue()
+comment4.text=\ Removes\ the\ element\ at\ the\ "front"\ of\ this\ queue.\n\ \ \ \ @returns\ the\ removed\ element\n\ \ \ \ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\n
+comment5.params=
+comment5.target=java.lang.Object\ peekFront()
+comment5.text=\ Returns\ the\ element\ at\ the\ "front"\ of\ this\ queue,\ without\n\ \ modifying\ the\ queue.\n\ \ \ \ @returns\ the\ element\ at\ the\ front\ of\ the\ queue\n\ \ \ \ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\n
+comment6.params=
+comment6.target=int\ size()
+comment6.text=\ \n\ \ \ \ Returns\ the\ size\ of\ the\ linkedlist\ \n\ \ \ \ @returns\ \ the\ size\ of\ the\ list\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\ \n\ Returns\ the\ string\ value\ of\ the\ queue\ and\ prints\ each\ element\n\ \ @returns\ \ \ \ the\ string\ of\ elements\ in\ the\ queue\n\ \ \ \ \n
+numComments=8

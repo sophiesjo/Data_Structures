@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=List
+comment0.text=\n\ \n\ A\ very\ basic\ list\ class.\ \ Elements\ can\ only\ be\ added\ at\ the\ beginning\ at\n\ the\ beginning\ of\ the\ list,\ and\ can\ only\ be\ removed\ according\ to\ their\n\ index.\n\ @Author\ Nathan\ Sprague\ and\ Sophie\ Sjogren\n\ @version\ April\ 13,\ 2021\n\n
+comment1.params=
+comment1.target=List()
+comment1.text=\n\ Create\ an\ empty\ list.\n
+comment2.params=element
+comment2.target=void\ addElement(java.lang.Object)
+comment2.text=\n\ Adds\ a\ new\ element\ AT\ THE\ BEGINNING\ of\ the\ list.\ \n\ @param\ element\ -\ The\ element\ to\ add\n
+comment3.params=index
+comment3.target=java.lang.Object\ removeElement(int)
+comment3.text=\n\ Removes\ and\ returns\ the\ element\ at\ the\ specified\ index.\ Throws\n\ a\ noSuchElementException\ if\ the\ index\ is\ out\ of\ bounds.\n\ \ \n\ @param\ index\ -\ position\ of\ the\ element\ to\ remove\n\ @return\ the\ element\ that\ was\ removed\n\ @throws\ NoSuchElementException\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\n\ Returns\ the\ number\ of\ elements\ in\ the\ list.\n
+numComments=5

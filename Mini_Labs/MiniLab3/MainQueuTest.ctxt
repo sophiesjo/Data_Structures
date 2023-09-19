@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MainQueuTest
+comment0.text=\n\ This\ main\ class\ creates\ a\ string\ array\ and\ uses\ the\ other\ classes\ to\ edit\ and\ \n\ print\ data\ from\ and\ about\ the\ list.\ \n\ I\ got\ this\ code\ from\ the\ mini-labs\ teams\ channel.\n\n\ @author\ Sophie\ Sjogren\ and\ Dr.\ Vargas\ Perez\n\ @version\ 4-26-21\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

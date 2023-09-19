@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=OrderedListTester
+comment0.text=\n\ This\ class\ is\ a\ tester\ for\ the\ orderlist\ and\ creates\ a\ list\ object\ which\ will\n\ store\ generic\ type\ elements.\ The\ class\ also\ tests\ other\ methods\ from\ the\ orderlist\n\ class\ and\ prints\ out\ the\ current\ list.\ \n\n\ @author\ Sophie\ Sjogren,\ worked\ with\ Tabitha\n\ @version\ 5-7-21\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

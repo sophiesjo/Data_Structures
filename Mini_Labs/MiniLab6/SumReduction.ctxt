@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SumReduction
+comment0.text=\n\ This\ class\ finds\ a\ sum\ of\ all\ the\ integer\ values\ in\ the\ tree\ and\ has\ an\ accessor\ \n\ and\ modifier\ method\ which\ increases\ the\ sum\ and\ returns\ the\ sum.\ \n\n\ @author\ Sophie\ Sjogren\n\ @version\ 5\ June\ 2021\n
+comment1.params=
+comment1.target=SumReduction()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SumReduction\n
+comment2.params=data
+comment2.target=void\ visit(java.lang.Object)
+comment2.text=\n\ This\ visit\ method\ gets\ the\ int\ value\ of\ the\ data\ and\ adds\ it\ to\ the\ sum.\n\n\ @param\ \ data\ this\ mut\ be\ an\ Integer\ that\ is\ passed\n
+comment3.params=
+comment3.target=int\ getSum()
+comment3.text=\n\ This\ accessor\ method\ gets\ the\ sum\ of\ the\ data\n\n\ @return\ \ \ \ the\ sum\ of\ the\ visit\ method\n
+numComments=4

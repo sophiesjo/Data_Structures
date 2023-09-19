@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ListTester
+comment0.text=\n\ This\ is\ a\ driver\ class\ for\ testing\ a\ simple\ List\ implementation\n\ \n\ @author\ Nathan\ Sprague\n\ @version\ April\ 12,\ 2010\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Runs\ a\ series\ of\ tests.\n
+comment2.params=
+comment2.target=List\ buildTestList()
+comment2.text=\n\ A\ helper\ function\ that\ creates\ a\ list\ containing\ all\ of\ the\ letters\ in\ the\n\ alphabet.\ \ Letters\ are\ added\ to\ the\ beginning\ of\ the\ list,\ starting\ with\ A.\n\ Items\ should\ end\ up\ in\ reverse\ alphabetical\ order\n\ \n\ @return\ list\ of\ letters\n
+comment3.params=
+comment3.target=void\ testSize()
+comment3.text=\n\ Run\ tests\ to\ see\ if\ size()\ is\ calculated\ correctly\ by\ the\ List\ class.\n
+comment4.params=
+comment4.target=void\ testAddRemove()
+comment4.text=\n\ Run\ tests\ to\ see\ if\ items\ are\ added\ and\ removed\ correctly\ by\ the\ List\ class\n
+comment5.params=
+comment5.target=void\ testRemoveFromEmpty()
+comment5.text=\n\ Test\ to\ see\ if\ the\ appropriate\ exception\ is\ thrown\ if\ there\ is\ an\ \n\ attempt\ to\ remove\ an\ item\ from\ an\ empty\ list.\n
+comment6.params=
+comment6.target=void\ testRemoveNegativeIndex()
+comment6.text=\n\ Test\ to\ see\ if\ the\ appropriate\ exception\ is\ thrown\ if\ there\ is\ an\ \n\ attempt\ to\ remove\ an\ item\ at\ a\ negative\ index.\n
+comment7.params=
+comment7.target=void\ testRemoveTooLargeIndex()
+comment7.text=\n\ Test\ to\ see\ if\ the\ appropriate\ exception\ is\ thrown\ if\ there\ is\ an\ \n\ attempt\ to\ remove\ an\ item\ at\ an\ index\ beyond\ the\ end\ of\ the\ list.\n
+numComments=8

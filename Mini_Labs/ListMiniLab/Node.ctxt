@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ A\ list\ node.\ \ Contains\ a\ generic\ element,\ and\ a\ reference\n\ to\ the\ next\ node\ in\ the\ list.\n\n\ @param\ <T>\n
+comment1.params=element
+comment1.target=Node(java.lang.Object)
+comment1.text=\n\ Creates\ a\ node.\ \n\ @param\ element\ -\ the\ element\ that\ the\ node\ will\ contain\n
+comment2.params=
+comment2.target=java.lang.Object\ getElement()
+comment2.text=\n\ Returns\ the\ element\ contained\ in\ this\ node.\ \n\ @return\n
+comment3.params=
+comment3.target=Node\ getNext()
+comment3.text=\n\ Returns\ the\ next\ node\ in\ the\ list.\ \n\ @return\n
+comment4.params=next
+comment4.target=void\ setNext(Node)
+comment4.text=\n\ Sets\ the\ next\ node\ reference\ for\ this\ node.\ \n\ @param\ next\ -\ The\ node\ that\ will\ follow\ this\ node.\n
+numComments=5

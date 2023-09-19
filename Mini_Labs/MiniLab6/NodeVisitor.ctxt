@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=NodeVisitor
+comment0.text=\n\ \ \ \ Interface\ for\ NodeVisitor\n\ \ \ \ @author\ Alyce\ Brady\n\ \ \ \ Creation\ Date\:\ Fall\ 2000\n\ \ \ \ \n\ \ \ \ This\ interface\ is\ useful\ for\ traversing\ through\ trees.\n
+comment1.params=data
+comment1.target=void\ visit(java.lang.Object)
+numComments=2

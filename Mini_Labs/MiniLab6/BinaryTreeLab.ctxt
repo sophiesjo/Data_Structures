@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=BinaryTreeLab
+comment0.text=\n\ This\ is\ the\ main\ method\ for\ the\ program\ and\ it\ calls\ upon\ the\ binarytree\ class\n\ in\ order\ to\ solve\ the\ different\ traversals.\ This\ program\ will\ use\ breadth-first\ order,\ \n\ pre-order,\ post-order,\ and\ in-order.\ This\ class\ also\ tests\ the\ other\ methods\ in\ the\ \n\ binarytree\ and\ sumreduction\ class.\ \n\n\ @author\ Sophie\ Sjogren\n\ @version\ 5\ June\ 2021\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

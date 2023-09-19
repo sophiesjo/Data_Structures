@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ This\ class\ allows\ a\ specific\ node\ to\ be\ created\ and\ ascessed\ within\ the\ linked\ list.\n\ I'm\ not\ sure\ if\ this\ class\ is\ necessary,\ but\ it\ helped\ me\ initialize\ variables\n\ and\ edit\ them\ more\ easily.\ May\ have\ complicated\ things\ more\ tho\n\ \n\n\ @author\ Sophie\ Sjogren\n\ @version\ 4-26-21\n\ \n
+comment1.params=newElement
+comment1.target=Node(java.lang.Object)
+comment1.text=\n\ Constructor\ for\ a\ node\ in\ the\ linkedlist\n\ @param\ newElement,\ element\ in\ the\ list\n
+comment2.params=
+comment2.target=java.lang.Object\ getElement()
+comment2.text=\n\ This\ method\ gets\ the\ element\ in\ the\ linkedlist\ \n\ @return\ \ the\ current\ element\ \n
+comment3.params=
+comment3.target=Node\ getNext()
+comment3.text=\n\ This\ method\ gets\ the\ next\ in\ the\ linkedlist\ \n\ @return\ \ the\ next\ element\ in\ the\ list\n
+comment4.params=newNode
+comment4.target=void\ setNext(Node)
+comment4.text=\n\ This\ modifier\ method\ allows\ the\ user\ to\ set\ the\ next\ element\ in\ the\ list\n\ @param\ \ \ newNode,\ the\ element\ that\ will\ be\ added\ next\n
+numComments=5
