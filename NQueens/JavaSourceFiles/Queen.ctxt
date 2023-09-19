@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Queen
+comment0.text=\n\ \ Environment-Based\ Applications\:<br>\n\n\ \ \ \ A\ Queen\ object\ represents\ a\ queen\ in\ the\ N\ Queens\ Problem.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ 1\ November\ 2002\n
+comment1.params=board\ loc
+comment1.target=Queen(edu.kzoo.grid.Grid,\ edu.kzoo.grid.Location)
+comment1.text=\ Constructs\ a\ queen\ at\ the\ specified\ location\ on\ an\ N\ x\ N\n\ \ "chessboard."\n\ \ @param\ board\ \ \ the\ board\ on\ which\ to\ place\ this\ queen\n\ \ @param\ loc\ \ \ \ \ the\ location\ of\ this\ queen\n
+comment2.params=col
+comment2.target=void\ setQueenColor(java.awt.Color)
+comment2.text=Defines\ the\ color\ to\ make\ all\ queens.\ *
+numComments=3

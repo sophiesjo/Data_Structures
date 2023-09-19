@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=NQueens
+comment0.text=\n\ \ Environment-Based\ Applications\:<br>\n\n\ \ \ \ The\ NQueens\ class\ implements\ the\ N\ Queens\ problem.\ There\ are\ modifier\ and\ accessor\n\ \ \ \ methods\ which\ will\ sort\ through\ each\ column\ and\ row\ to\ find\ an\ algorithm\n\ \ \ \ that\ will\ place\ n\ queens\ in\ an\ n\ x\ n\ board.\ \n\n\ \ @author\ Sophie\ Sjogren\n\ \ @author\ Worked\ with\ Tabitha\n\ \ @version\ 3\ June\ 2021\n
+comment1.params=n\ d
+comment1.target=NQueens(int,\ edu.kzoo.grid.display.GridDisplay)
+comment1.text=\ Constructs\ an\ object\ that\ solves\ the\ N\ Queens\ Problem.\n\ \ \ \ @param\ n\ the\ number\ of\ queens\ to\ be\ placed\ on\ an\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ <code>n</code>\ x\ <code>n</code>\ board\n\ \ \ \ @param\ d\ an\ object\ that\ knows\ how\ to\ display\ an\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ <code>n</code>\ x\ <code>n</code>\ board\ and\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ queens\ on\ it\n
+comment2.params=
+comment2.target=int\ numQueens()
+comment2.text=\ Returns\ the\ number\ of\ queens\ to\ be\ placed\ on\ the\ board.\ This\ is\ done\ by\ \n\ returning\ the\ number\ of\ rows\ because\ there\ are\ n\ queens\ in\ an\ n\ x\ n\ grid\ \n\n\ \ \ \ \ \ @return\ the\ number\ of\ queens,\ same\ as\ the\ number\ of\ rows\ and\ cols\n
+comment3.params=
+comment3.target=boolean\ solve()
+comment3.text=\ Solves\ (or\ attempts\ to\ solve)\ the\ N\ Queens\ Problem.\ \n\n\ \ \ \ \ \ @return\ a\ boolean\ indicating\ the\ problem\ is\ solved\n
+comment4.params=q
+comment4.target=boolean\ placeQueen(int)
+comment4.text=\ Attempts\ to\ place\ the\ <code>q</code>th\ queen\ on\ the\ board.\ Sorts\ through\ eacch\n\ row\ and\ col\ to\ check\ for\ valid\ locations.\n\ \ (Precondition\:\ <code>0\ <\=\ q\ <\ numQueens()</code>)\n\ \ \ \ \ \ @param\ q\ index\ of\ next\ queen\ to\ place\n\ \ \ \ \ \ @return\ the\ attribute\ value\n
+comment5.params=loc
+comment5.target=boolean\ locationIsOK(edu.kzoo.grid.Location)
+comment5.text=\ This\ method\ determines\ whether\ a\ queen\ can\ be\ placed\ at\ the\ specified\ location.\n\ And\ returns\ a\ boolean\ indication\ if\ the\ location\ is\ where\ another\ queen\ can't\ attack.\ \n\ \ \n\ \ \ \ @param\ loc\ \ the\ location\ to\ test\n\ \ \ \ @return\ a\ boolean\ indicating\ if\ the\ location\ is\ valid\n
+comment6.params=loc
+comment6.target=void\ addQueen(edu.kzoo.grid.Location)
+comment6.text=\ Adds\ a\ queen\ to\ the\ specified\ location.\n\ \n\ \ \ \ @param\ loc\ \ the\ location\ where\ the\ queen\ is\ placed\n
+comment7.params=loc
+comment7.target=void\ removeQueen(edu.kzoo.grid.Location)
+comment7.text=\ Removes\ a\ queen\ from\ the\ specified\ location.\n\ \n\ \ \ \ @param\ loc\ \ the\ location\ where\ the\ queen\ is\ removed\n
+numComments=8
