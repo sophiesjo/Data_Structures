@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Project1Tester
+comment0.text=\n\ PP1\:\ Indexing\ Substrings\n\ \n\ This\ class\ contains\ the\ main\ method\ that\ creates\ an\ indexer\ object\ and\ runs\ the\ method\ that\ analyzes\ the\ data\ and\ prints\ the\ results\n\n\ @author\ Sophie\ Sjogren\n\ @version\ April\ 19,\ 2021\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

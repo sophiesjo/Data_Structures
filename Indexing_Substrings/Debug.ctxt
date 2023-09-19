@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Debug
+comment0.text=\n\ \ AP&reg;\ Computer\ Science\ Marine\ Biology\ Simulation\:<br>\n\ \ The\ <code>Debug</code>\ class\ supports\ conditional\ printing\ of\n\ \ debugging\ messages.\n\n\ \ <p>\n\ \ The\ <code>turnOn</code>\ and\ <code>turnOff</code>\ methods\ cause\ the\n\ \ previous\ debugging\ state\ to\ be\ saved\ on\ a\ stack\ so\ that\ it\ can\ be\n\ \ restored\ later\ using\ the\ <code>restoreState</code>\ method.\n\n\ \ <p>\n\ \ For\ example,\ consider\ the\ following\ scenario.\ \ Method\ 1\ turns\ on\n\ \ debugging\ and\ calls\ Method\ 2.\ \ Method\ 2,\ not\ knowing\ that\ debugging\n\ \ is\ already\ on,\ turns\ debugging\ on\ and\ calls\ Method\ 3.\ \ Method\ 3\n\ \ turns\ debugging\ off.\ \ Before\ returning,\ Method\ 3\ restores\ the\n\ \ previous\ state,\ which\ turns\ debugging\ back\ on\ (as\ set\ by\ Method\ 2).\n\ \ Before\ Method\ 2\ returns,\ it\ also\ restores\ the\ state,\ which\ will\n\ \ leave\ debugging\ on\ (as\ set\ by\ Method\ 1).\ \ This\ is\ illustrated\ in\n\ \ the\ pseudo-code\ below.\n\ \ <pre>\n\ \ \ \ \ \ in\ Method\ 1\:\n\ \ \ \ \ \ \ \ \ \ (A\:\ in\ Method\ 1;\ we\ don't\ know\ debugging\ state)\n\ \ \ \ \ \ \ \ \ \ turn\ on\ debugging\n\ \ \ \ \ \ \ \ \ \ (debugging\ state\ is\ now\ on;\ Debug.println\ will\ print)\n\ \ \ \ \ \ \ \ \ \ call\ Method\ 2\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ (B\:\ now\ in\ Method\ 2;\ debugging\ state\ is\ unchanged\ (on))\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ turn\ on\ debugging\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ (debugging\ state\ is\ on\ (still))\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ call\ Method\ 3\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (C\:\ now\ in\ Method\ 3;\ debugging\ state\ is\ unchanged\ (on))\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ turn\ off\ debugging\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (debugging\ state\ is\ now\ off;\ Debug.println\ will\ not\ print)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ restore\ state\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (debugging\ state\ is\ restored\ to\ what\ it\ was\ at\ point\ C\ (on))\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ to\ Method\ 2\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (D\:\ now\ in\ Method\ 2;\ debugging\ state\ is\ unchanged\ (still\ on))\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ restore\ state\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (debugging\ state\ is\ still\ on\ because\ it\ was\ on\ at\ point\ B)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ to\ Method\ 1\n\ \ \ \ \ \ \ \ \ \ \ (E\:\ now\ in\ Method\ 1;\ debugging\ state\ unchanged\ (still\ on))\n\ \ \ \ \ \ \ \ \ \ \ restore\ state\n\ \ \ \ \ \ \ \ \ \ \ (debugging\ state\ is\ whatever\ it\ was\ at\ point\ A\ (unknown))\n\ \ </pre>\n\ \ Note\ that\ when\ Method\ 2\ restores\ the\ debugging\ state,\ it\ does\ not\ go\n\ \ back\ to\ its\ most\ recent\ state,\ which\ would\ be\ off\ (as\ set\ by\ Method\ 3).\n\ \ State\ restoration\ is\ controlled\ by\ a\ stack,\ not\ by\ a\ toggle.\n\ \ \n\ \ <p>\n\ \ The\ <code>Debug</code>\ class\ is\n\ \ copyright&copy;\ 2002\ College\ Entrance\ Examination\ Board\n\ \ (www.collegeboard.com).\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ 1\ July\ 2002\n
+comment1.params=
+comment1.target=boolean\ isOn()
+comment1.text=\ Checks\ whether\ debugging\ is\ on.\ \ The\ <code>Debug.print</code>\n\ \ and\ <code>Debug.println</code>)\ methods\ use\ <code>isOn</code>\n\ \ to\ decide\ whether\ or\ not\ to\ print.\n
+comment2.params=
+comment2.target=boolean\ isOff()
+comment2.text=\ Checks\ whether\ debugging\ is\ off.\n
+comment3.params=
+comment3.target=void\ turnOn()
+comment3.text=\ Turns\ debugging\ on.\n
+comment4.params=
+comment4.target=void\ turnOff()
+comment4.text=\ Turns\ debugging\ off.\n
+comment5.params=
+comment5.target=void\ restoreState()
+comment5.text=\ Restores\ the\ previous\ debugging\ state.\ \ If\ there\ is\n\ \ no\ previous\ state\ to\ restore,\ <code>restoreState</code>\ turns\n\ \ debugging\ off.\n
+comment6.params=message
+comment6.target=void\ print(java.lang.String)
+comment6.text=\ Prints\ debugging\ message\ without\ appending\ a\ newline\ character\ at\n\ \ the\ end.\n\ \ If\ debugging\ is\ turned\ on,\ <code>message</code>\ is\n\ \ \ \ \ \ printed\ to\ <code>System.out</code>\ without\ a\ newline.\n\ \ @param\ \ \ \ message\ \ \ \ debugging\ message\ to\ print\n
+comment7.params=message
+comment7.target=void\ println(java.lang.String)
+comment7.text=\ Prints\ debugging\ message,\ appending\ a\ newline\ character\ at\ the\ end.\n\ \ If\ debugging\ is\ turned\ on,\ <code>message</code>\ is\n\ \ \ \ \ \ printed\ to\ <code>System.out</code>\ followed\ by\ a\ newline.\n\ \ @param\ \ \ \ message\ \ \ \ debugging\ message\ to\ print\n
+numComments=8

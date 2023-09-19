@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Location
+comment0.text=\n\ PP1\:\ Indexing\ Substrings\n\ \n\ This\ class\ organizes\ and\ keeps\ track\ of\ the\ locations\ by\ indentifying\ the\ string\ and\ where\ that\ string\ starts.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ April\ 19,\ 2021\n
+comment1.params=seq\ start
+comment1.target=Location(int,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Location\n
+comment2.params=
+comment2.target=int\ getSequenceNum()
+comment2.text=\n\ This\ method\ gets\ the\ order\ of\ the\ sequence,\ if\ it\ is\ the\ first,\ second,\ third,\ so\ on.\n\n\ @return\ \ \ \ the\ int\ that\ describes\ which\ sequence\ it\ is\n
+comment3.params=
+comment3.target=int\ getStartingPoint()
+comment3.text=\n\ This\ accessor\ method\ gets\ where\ the\ substring\ is\ starting\ in\ the\ sequence\n\n\ @return\ \ \ \ the\ int\ that\ describes\ where\ the\ substring\ starts\ within\ the\ sequence\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ This\ method\ organizes\ the\ sequence\ number\ and\ starting\ point\ so\ it\ is\ accesible\ to\ the\ user\n\n\ @return\ \ \ \ the\ string\ that\ contains\ the\ key\ information\n
+numComments=5

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DNASequence
+comment0.text=\n\ PP1\:\ Indexing\ Substrings\n\ \n\ The\ intention\ of\ this\ class\ is\ to\ break\ up\ all\ the\ info\ and\ find\ which\ lines\ contain\ specifically\ the\n\ general\ information,\ the\ description,\ and\ then\ the\ sequence.\ This\ class\ also\ contains\ accessor\ methods\n\ that\ return\ specific\ information.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ April\ 19,\ 2021\n
+comment1.params=info\ sampleNum\ stringSeq
+comment1.target=DNASequence(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ DNASequence\n
+comment2.params=stringSeq
+comment2.target=DNASequence(java.lang.String)
+comment2.text=\n\ Constructor\ for\ objects\ of\ class\ DNASequence\n
+comment3.params=
+comment3.target=java.lang.String\ getGI()
+comment3.text=\ This\ accessor\ method\ gets\ the\ general\ information.\n\ \n\ @return\ \ the\ string\ with\ the\ general\ information\n
+comment4.params=
+comment4.target=java.lang.String\ getDescription()
+comment4.text=\ This\ accessor\ methods\ gets\ the\ description\n\ \n\ @return\ \ the\ string\ with\ the\ description\n
+comment5.params=
+comment5.target=java.lang.String\ getSequence()
+comment5.text=\ This\ accessor\ method\ gets\ the\ sequence\n\ \n\ @return\ \ the\ string\ with\ the\ sequence\ \n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Returns\ a\ string\ of\ key\ information\ including\ the\ general\ info,\ the\ description,\ and\ the\ sequence\ \n\ \n\ \ @return\ \ a\ string\ indicating\ the\ general\ info,\ description,\ and\ sequence\n
+numComments=7

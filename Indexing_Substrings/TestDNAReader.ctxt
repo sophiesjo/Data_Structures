@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TestDNAReader
+comment0.text=\n\ \ PP1\:\ Indexing\ Substrings\n\n\ \ This\ class\ has\ the\ main\ method\ used\ to\ test\ the\ DNADataReader\ class\ and\ the\ results\ of\ getting\ \n\ \ data\ from\ a\ file.\n\n\n\ \ @author\ Sophie\ Sjogren\n\ @version\ April\ 19,\ 2021\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ \ The\ main\ function\ initiates\ execution\ of\ this\ program.\n\ \ \ \ @param\ \ \ \ String[]\ args\ not\ used\ in\ this\ program\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ (but\ main\ methods\ always\ need\ this\ parameter)\n
+numComments=2

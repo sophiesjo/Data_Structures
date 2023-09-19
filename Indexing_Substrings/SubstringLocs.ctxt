@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SubstringLocs
+comment0.text=\n\ PP1\:\ Indexing\ Substrings\n\ \n\ This\ class\ keeps\ track\ of\ the\ substring\ and\ its\ associated\ location.\ This\ contains\ accessor\ methods\n\ that\ allow\ the\ user\ to\ get\ the\ location\ and\ substring\ along\ with\ a\ modifier\ method\ that\ allows\ \n\ the\ user\ to\ add\ locations\ for\ a\ specific\ substring.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ April\ 19,\ 2021\n
+comment1.params=stringSequence\ locs
+comment1.target=SubstringLocs(java.lang.String,\ java.util.ArrayList)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SubstringLocs\n\ \n\ @param\ stringSequence\ \ \ \ the\ substring\ associated\ with\ the\ location\n\ @param\ locs\ \ \ \ \ \ \ \ \ \ \ \ \ \ an\ arraylist\ of\ locations\ of\ the\ substring\n
+comment2.params=newLocation
+comment2.target=void\ addLocation(Location)
+comment2.text=\n\ This\ modifier\ method\ allows\ the\ user\ to\ add\ locations\ for\ a\ substring\n\n\ @param\ \ newLocation\ \ \ \ \ \ this\ is\ the\ location\ being\ added\ to\ the\ list\n
+comment3.params=
+comment3.target=java.lang.String\ getSubstring()
+comment3.text=\n\ This\ accesor\ method\ gets\ the\ substring\n\n\ @return\ \ \ \ the\ String\ that\ contains\ the\ substring\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getLocations()
+comment4.text=\n\ This\ accesor\ method\ gets\ the\ list\ of\ locations\ for\ a\ substring\n\n\ @return\ \ \ \ the\ arraylist\ that\ contains\ locations\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ This\ method\ turns\ the\ substring\ and\ location\ into\ a\ printable\ format\n\n\ @return\ \ \ \ the\ String\ that\ contains\ both\ the\ substring\ and\ location\n
+numComments=6

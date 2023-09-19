@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DNADataReader
+comment0.text=\n\ PP1\:\ Indexing\ Substrings\n\ \n\ This\ class\ contains\ code\ to\ read\ DNA\ sequence\ data\ in\ from\n\ a\ file.\ \ It\ must\ be\ put\ into\ an\ ArrayList\ as\ it\ is\ read.\n\ \n\ @author\ Pamela\ Cutter\n\ @author\ Alyce\ Brady\n\ @author\ Nathan\ Sprague\n\ @version\ April\ 4,\ 2013\n\ @author\ Sophie\ Sjogren\n\ @version\ April\ 19,\ 2021\n
+comment1.params=filename
+comment1.target=DNADataReader(java.lang.String)
+comment1.text=\ Constructs\ an\ object\ that\ can\ read\ DNA\ sequence\ information\n\ \ from\ a\ file.\ \ The\ data\ is\ assumed\ to\ be\ in\ the\n\ \ following\ format\:\n\n\ \ \ \ \ \ GenInfoIdentifier\ \ A\ string\ describing\ the\ sequence\n\ \ \ \ \ \ a\ group\ of\ nucleotide\ blocks,\ spanning\ 1\ or\ more\ lines\n\n\ \ \ For\ example\ \ \ the\ following\ would\ be\ a\ valid\ single\ sequence\:\n\ \ \ <pre>\n\ \ \ \ \ \ 94717691\ Campo.\ sono.\ ichnovirus\ segment\ W,\ complete\ sequence\n\ \ \ \ \ \ ctccaccaaa\ ctttgagagt\ cactacaaaa\ acattcacga\ tcgcttcact\n\ \ \ \ \ \ ctccaccaaa\ ctttgagagt\ cactacaaaa\ acattcacga\ tcgcttcact\n\ \ \ </pre>\n\ \ \ \ \ \ @param\ filename\ \ the\ name\ of\ the\ file\ to\ open\ for\ reading\n
+comment2.params=
+comment2.target=java.util.ArrayList\ readData()
+comment2.text=\ Reads\ DNA\ sequence\ information\ from\ the\ given\ file,\ which\ must\ be\n\ \ in\ the\ format\ specified\ in\ the\ documentation\ for\ the\ DNADataReader\n\ \ constructor.\n\ \ Precondition\:\ the\ file\ must\ have\ been\ successfully\ opened\ for\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ reading.\n\ \ \ \ \ \ @return\ void\ (for\ now\ --\ should\ return\ the\ information\ read\ in)\n
+comment3.params=firstLine
+comment3.target=DNASequence\ buildDNASequence(java.lang.String)
+comment3.text=\ Builds\ a\ DNA\ sequence\ object\ using\ initial\ information\ already\n\ \ read\ in\ (identifier\ and\ description)\ and\ nucleotide\ sequence\n\ \ information\ that\ must\ be\ read\ in\ from\ the\ file.\n\ \ \ \ \ \ @param\ firstLine\ \ \ \ the\ first\ line\ of\ info\ for\ this\ sequence\n\ \ \ \ \ \ @return\ void\ (for\ now\ --\ should\ return\ a\ DNA\ Sequence\ object)\n\ \ \ \ \ \ @throws\ IOException\n
+comment4.params=
+comment4.target=java.lang.String\ readNucleotideSequence()
+comment4.text=\ Reads\ in\ the\ nucleotide\ sequence\ for\ a\ single\ DNA\ sequence.\n\ \ The\ nucleotide\ sequence\ is\ assumed\ to\ be\ presented\ as\n\ \ groups\ of\ space-separated\ nucleotide\ blocks,\ spanning\ 1\ or\n\ \ more\ lines.\ \ For\ example,\ the\ following\ would\ be\ a\ valid\n\ \ single-line\ nucleotide\ sequence\:\n\ \ \ \ \ \ ctccaccaaa\ ctttgagagt\ cactacaaaa\ acattcacga\ tcgcttcact\n\ \ The\ method\ reads\ until\ it\ reaches\ an\ empty\ line,\ representing\n\ \ then\ end\ of\ this\ particular\ sequence.\ \ It\ returns\ a\ string\n\ \ containing\ the\ nucleotide\ sequence\ without\ the\ intermediate\n\ \ spaces.\ \ For\ the\ example\ above,\ the\ method\ would\ return\:\n\ \ \ \ \ \ ctccaccaaactttgagagtcactacaaaaacattcacgatcgcttcact\n\n\ \ \ \ \ \ @return\ String\ containing\ nucleotide\ sequence\ without\ spaces\n\ \ \ \ \ \ @throws\ IOException\n
+numComments=5

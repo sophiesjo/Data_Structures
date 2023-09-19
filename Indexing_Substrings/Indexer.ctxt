@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Indexer
+comment0.text=\n\ PP1\:\ Indexing\ Substrings\n\ \n\ This\ class\ gets\ a\ file\ and\ string\ length\ from\ the\ user\ and\ gets\ data\ from\ the\ DNADataReader\ class.\n\ The\ run\ method\ for\ this\ class\ sorts\ through\ the\ data\ and\ using\ the\ DNASequence\ class\ gets\ only\ the\ \n\ sequence\ line\ which\ is\ used\ to\ count\ the\ number\ of\ times\ substrings\ appear\ in\ the\ sequences.\ The\ class\n\ then\ prints\ out\ the\ results.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ April\ 19,\ 2021\n
+comment1.params=
+comment1.target=Indexer()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Indexer\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ This\ method\ uses\ the\ data\ from\ the\ file\ and\ breaks\ it\ up\ into\ substrings\ which\ are\ compared\ to\ substrings\n\ at\ other\ locations\ to\ create\ a\ list\ of\ specific\ substrings\ and\ all\ locations\ associated\ with\ it.\n\n
+comment3.params=
+comment3.target=void\ printResults()
+comment3.text=\n\ This\ method\ uses\ the\ instance\ variables\ and\ results\ from\ above\ to\ print\ the\ locations\ for\ the\ user\n\n
+numComments=4
